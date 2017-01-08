@@ -11,8 +11,8 @@
 
   @media (--medium-viewport) {
     .logo {
-      width: 480px;
-      margin-top: -50px;
+      width: 600px;
+      margin-top: -64px;
     }
   }
 
@@ -20,8 +20,8 @@
     margin: 0;
 
     .logo {
-      width: 600px;
-      margin-top: -$spc-xl;
+      width: 720px;
+      margin-top: -76px;
     }
   }
 }
