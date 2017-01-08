@@ -122,7 +122,7 @@ function styles() {
   return gulp.src(`${paths.components}/${appCss}`)
     .pipe(postcss(processors))
     .on('error', errorCSS)
-    .pipe(cssnano({ discardComments: { removeAll: true }, autoprefixer: false }))
+    //.pipe(cssnano({ discardComments: { removeAll: true }, autoprefixer: false }))
     .pipe(rename(`${appCssMin}`))
     .pipe(gulp.dest(`${paths.public_css}`));
 }
