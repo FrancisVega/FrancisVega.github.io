@@ -2,25 +2,26 @@
 .header {
   @extend %resetBox;
 
-  padding-top: $spc-xl;
   padding-bottom: $spc-xl;
 
   .logo {
     width: 280px;
+      margin-top: -30px;
   }
 
   @media (--medium-viewport) {
     .logo {
       width: 480px;
+      margin-top: -50px;
     }
   }
 
   @media (min-width: 720px) and (min-height: 850px) {
     margin: 0;
-    padding-top: 140px;
 
     .logo {
       width: 600px;
+      margin-top: -$spc-xl;
     }
   }
 }
