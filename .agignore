@@ -1,0 +1,7 @@
+node_modules/
+build/
+.DS_Store
+yarn.lock
+src/public/js-dist
+src/public/js-es6
+npm-debug.log

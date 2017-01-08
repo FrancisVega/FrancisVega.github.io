@@ -1,0 +1,6 @@
+{# @header #}
+<div class="header
+    {%- for mod in modifiers %} header--{{ mod }}{% endfor %}
+    {%- for cls in classes %} {{ cls }}{% endfor %}">
+    {% render '@logo' %}
+</div>

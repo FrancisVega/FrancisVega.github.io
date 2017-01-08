@@ -1,0 +1,36 @@
+/*
+
+    # SPACING
+    docs: secuoyas.io/trunk/docs/spacing
+
+    Espaciados estandar.
+
+*/
+
+/* VARIABLES ----------------------------------------------------------------------------------- */
+$spc-inset-default: map(spacing, tokens, spc-inset-default);
+$spc-inset-xs:      map(spacing, tokens, spc-inset-xs);
+$spc-inset-s:       map(spacing, tokens, spc-inset-s);
+$spc-inset-m:       map(spacing, tokens, spc-inset-m);
+$spc-inset-l:       map(spacing, tokens, spc-inset-l);
+$spc-inset-xl:      map(spacing, tokens, spc-inset-xl);
+$spc-stack-default: map(spacing, tokens, spc-stack-default);
+$spc-stack-xs:      map(spacing, tokens, spc-stack-xs);
+$spc-stack-s:       map(spacing, tokens, spc-stack-s);
+$spc-stack-m:       map(spacing, tokens, spc-stack-m);
+$spc-stack-l:       map(spacing, tokens, spc-stack-l);
+$spc-stack-xl:      map(spacing, tokens, spc-stack-xl);
+$spc-default:       map(spacing, tokens, spc-default);
+$spc-thin:          map(spacing, tokens, spc-thin);
+$spc-xxs:           map(spacing, tokens, spc-xxs);
+$spc-xs:            map(spacing, tokens, spc-xs);
+$spc-s:             map(spacing, tokens, spc-s);
+$spc-m:             map(spacing, tokens, spc-m);
+$spc-l:             map(spacing, tokens, spc-l);
+$spc-xl:            map(spacing, tokens, spc-xl);
+$spc-xxl:           map(spacing, tokens, spc-xxl);
+$spc-xxxl:          map(spacing, tokens, spc-xxxl);
+$rad-small:         map(spacing, tokens, radius-small);
+$rad-default:       map(spacing, tokens, radius-default);
+$rad-circle:        map(spacing, tokens, radius-circle);
+

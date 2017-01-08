@@ -1,0 +1,23 @@
+/*
+
+    # TYPOGRAPHY
+    docs: secuoyas.io/trunk/docs/typography
+
+    Tamaños genéricos de tipografía.
+
+*/
+
+/* HEADINGS ------------------------------------------------------------------------------------ */
+
+/*
+ *h1 { @mixin f1; }
+ *h2 { @mixin f2; }
+ *h3 { @mixin f3; }
+ *h4 { @mixin f4; }
+ *h5 { @mixin f5; }
+ *h6 { @mixin f6; }
+ */
+
+/* PARAGRAPHS ---------------------------------------------------------------------------------- */
+
+/* p { @mixin f6; } */

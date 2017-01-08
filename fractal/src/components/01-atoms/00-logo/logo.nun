@@ -1,0 +1,7 @@
+{# @logo #}
+<div class="logo
+    {%- for mod in modifiers %} logo--{{ mod }}{% endfor %}
+    {%- for cls in classes %} {{ cls }}{% endfor %}">
+
+    <img class="logo__image" src="/images/logo.svg" alt="francis vega logotype"/>
+</div>

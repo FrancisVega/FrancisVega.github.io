@@ -1,0 +1,6 @@
+/* @l-fullheight */
+.l-fullheight {
+  @media (--medium-viewport) {
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "inartx-web-2017",
+  "version": "1.0.0",
+  "description": "Front end component library for inartx web",
+  "keywords": [
+    "styleguide",
+    "patterns",
+    "library"
+  ],
+  "homepage": "",
+  "license": "ISC",
+  "author": "Mariantonia Redwood",
+  "main": "fractal.js",
+  "scripts": {
+    "dev": "node_modules/.bin/gulp dev",
+    "lint:css": "node_modules/.bin/gulp lint:css",
+    "lint:js": "eslint_d src/components",
+    "build": "node_modules/.bin/gulp build",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.1.0-beta.4",
+    "@frctl/handlebars": "^1.2.0-beta.1",
+    "@frctl/mandelbrot": "^1.1.0-beta.1",
+    "@frctl/nunjucks": "^1.0.2",
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.14.0",
+    "del": "^2.2.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-flatten": "^0.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylelint": "^3.6.0",
+    "gulp-uglify": "^2.0.0",
+    "lost": "^8.0.0",
+    "postcss": "^5.2.5",
+    "postcss-color-hexa": "^1.2.4",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-each": "^0.9.3",
+    "postcss-easy-import": "^1.0.1",
+    "postcss-map": "^0.8.0",
+    "postcss-short": "^3.0.1",
+    "precss": "^1.4.0",
+    "toggly": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  }
+}

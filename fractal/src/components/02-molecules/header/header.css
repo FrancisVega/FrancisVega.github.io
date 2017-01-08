@@ -1,0 +1,37 @@
+/* @header */
+.header {
+  @extend %resetBox;
+
+  padding-top: $spc-xl;
+  padding-bottom: $spc-xl;
+
+  .logo {
+    width: 280px;
+  }
+
+  @media (--medium-viewport) {
+    .logo {
+      width: 480px;
+    }
+  }
+
+  @media (min-width: 720px) and (min-height: 850px) {
+    margin: 0;
+    padding-top: 140px;
+
+    .logo {
+      width: 600px;
+    }
+  }
+}
+
+/*
+ *.header .logo {
+ *  width: 400px;
+ *
+ *  @media (min-height: 700px) {
+ *    width: 20%;
+ *    border: 4px solid purple;
+ *  }
+ *}
+ */

@@ -1,0 +1,6 @@
+{# @paragraph #}
+<p class="paragraph
+    {%- for mod in modifiers %} paragraph--{{ mod }}{% endfor %}
+    {%- for cls in classes %} {{ cls }}{% endfor %}">
+    {{ text }}
+</p>

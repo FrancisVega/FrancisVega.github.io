@@ -1,0 +1,12 @@
+{
+    "title": "Containers",
+    "desc": "Tokens para contenedores.",
+    "tokens": {
+        "small": "480px",
+        "medium": "700px",
+        "large": "940px",
+        "xlarge": "1132px",
+        "xxlarge": "1516px",
+        "xxxlarge": "1900px"
+    }
+}

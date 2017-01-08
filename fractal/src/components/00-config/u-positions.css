@@ -1,0 +1,6 @@
+.u-posab0\@m {
+  @media (--medium-viewport) {
+    position: absolute !important;
+    bottom: 0 !important;
+  }
+}

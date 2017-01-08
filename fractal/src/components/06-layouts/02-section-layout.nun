@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+
+        <!--Title-->
+        <title>{{ pageTitle | default('Secuoyas') }}</title>
+
+        <!--Metas-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Touch icon-->
+        <link rel="shortcut icon" href="{{ '/favicon.ico' | path }}">
+        <link rel="shortcut icon" href="{{ '/favicon.png' | path }}">
+        <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | path }}">
+
+        <!--Stylesheet-->
+        <link media="all" rel="stylesheet" href="{{ '/css/main.css' | path }}">
+
+        <!--Typekit-->
+        <script src="https://use.typekit.net/rcf1kft.js"></script>
+        <script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+    </head>
+
+    <body>
+
+        <!--Header-->
+        {# render '@footer' #}
+
+        <!--Content-->
+        {% block content %}
+        <h3>Este Layout no se usa directamente</h3>
+        <p>Extender con {% raw %}<span style="font-family:Inconsolata;color:blue;">{% extend '@section-layout' %}</span>{% endraw %}</p>
+        {% endblock %}
+
+        <!--Footer-->
+        {# render '@footer' #}
+
+        <!--Scripts-->
+        <script src="{{ '/js-dist/vendor/jquery/jquery-2.2.4.min.js' | path }}"></script>
+        <script src="{{ '/js-dist/vendor/ramda/ramda.min.js' | path }}"></script>
+        <script src="{{ '/js-dist/vendor/EQCSS/EQCSS.min.js' | path }}"></script>
+        <script src="{{ '/js-dist/vendor/greensock/TweenMax.min.js' | path }}"></script>
+        <script src="{{ '/js-dist/components/components.min.js' | path }}"></script>
+        <script src="{{ '/js-dist/custom/custom.min.js' | path }}"></script>
+
+    </body>
+
+</html>

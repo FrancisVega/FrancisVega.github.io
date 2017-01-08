@@ -1,0 +1,12 @@
+.l-indent {
+  padding-right: $spc-l;
+  padding-left: $spc-l;
+
+  @media (--medium-viewport) {
+    margin-left: $spc-xxl;
+  }
+
+  @media (--large-viewport) {
+    margin-left: $spc-xxxl;
+  }
+}

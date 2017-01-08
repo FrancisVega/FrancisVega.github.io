@@ -1,0 +1,7 @@
+.l-section {
+  margin-bottom: $spc-xl;
+
+  @media (--medium-viewport) {
+    margin-bottom: $spc-xxl;
+  }
+}

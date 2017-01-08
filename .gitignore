@@ -1,0 +1,8 @@
+fractal/node_modules/
+fractal/build/
+.DS_Store
+yarn.lock
+fractal/src/public/js-dist
+fractal/src/public/js-es6
+fractal/src/public/css/main.css
+npm-debug.log

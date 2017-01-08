@@ -1,0 +1,29 @@
+{
+    "title": "Colores",
+    "desc": "Paleta de colores de Secuoyas",
+    "tokens": {
+        "base": {
+            "white":         "#f7f7f7",
+            "cream":         "#F9DFB1",
+            "black":         "#000000",
+            "pyrite":        "#BEA382",
+            "coal":          "#232323",
+            "silver":        "#999999",
+            "azurite":       "#1B16DF",
+            "indigo":        "#5186C8",
+            "aqua":          "#4DF6FB",
+            "moss":          "#2FC184",
+            "copper":        "#D5804C",
+            "sunflower":     "#F1CC64",
+            "violet":        "#802FAC"
+        },
+        "variations": {
+            "pyriteDark":    "#948168",
+            "red":           "#FFBBCC",
+            "darkred":       "darkred"
+        },
+        "links": {
+            "mainLinkColor": "#232323"
+        }
+    }
+}

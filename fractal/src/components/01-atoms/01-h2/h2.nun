@@ -1,0 +1,5 @@
+{# @paragraph #}
+<h2 class="h2
+    {%- for mod in modifiers %} h2--{{ mod }}{% endfor %}
+    {%- for cls in classes %} {{ cls }}{% endfor %}">
+    {{ text }}</h2>

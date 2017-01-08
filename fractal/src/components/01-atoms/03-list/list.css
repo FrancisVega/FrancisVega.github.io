@@ -1,0 +1,24 @@
+/* @list */
+.list {
+  @extend %resetBox;
+}
+
+.list__item {
+  margin-right: $spc-l;
+  line-height: 2.5;
+
+  @media (--medium-viewport) {
+    display: inline;
+  }
+}
+
+.list__link {
+  font-size: 18px;
+  line-height: 1.5;
+  color: $black;
+  font-weight: 700;
+
+  @media (--medium-viewport) {
+    font-size: 20px;
+  }
+}
