@@ -1,9 +1,0 @@
-.h2 {
-  color: $silver;
-  font-size: 18px;
-  margin-bottom: $spc-m;
-
-  @media (--medium-viewport) {
-    font-size: 20px;
-  }
-}
